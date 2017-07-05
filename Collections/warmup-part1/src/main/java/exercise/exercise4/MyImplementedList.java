@@ -58,33 +58,125 @@ public class MyImplementedList<E> {
     //TODO a) implement the empty constructor for the your data structure
     public MyImplementedList() {
         //TODO a) HINT - DEFAULT_CAPACITY, capacityAfterExtending and elementData properties
+        this.elementData = new Object[DEFAULT_CAPACITY];
+        this.capacityAfterExtending = DEFAULT_CAPACITY;
+
     }
 
     //TODO b) create the int size() method that returns the size of the data structure
 
+    public int size(){
+        return size;
+    }
+
+
     //TODO c) create the boolean add(E e) method that adds at the end of the data structure an element
     //TODO pay attention to the LOAD_FACTOR of the data structure
 
-    //TODO d) create the boolean isEmpty() method that checks if the data structure have elements
+//    public boolean add(E e) {
+//
+//        return true;
+//    }
+
+
+
+// TODO d) create the boolean isEmpty() method that checks if the data structure have elements
+
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
 
     //TODO e) create the boolean contains(Object o_O) method that checks if the data structure contains the object o_O
+
+    public boolean contains(Object o) {
+        for(Object obj : elementData) {
+            if (obj.equals(o)){
+                return true;
+            }
+        }
+        return false;
+    }
+
 
     //TODO f) create the int indexOf(Object o_O) method that returns the position in the data structure of the object o_O
     //TODO if exists, otherwise return -1
 
+    public int indexOf(Object o) {
+        if (o == null) {
+            for (int i = 0; i < size; i++)
+                if (elementData[i]==null)
+                    return i;
+        } else {
+            for (int i = 0; i < size; i++)
+                if (o.equals(elementData[i]))
+                    return i;
+        }
+        return -1;
+    }
+
+
+
     //TODO g) create the int lastIndexOf(Object o_O) method that returns the last position in the data structure of the object o_O
     //TODO if exists, otherwise return -1
+
+    public int lastIndexOf(Object o) {
+        if (o == null) {
+            for (int i = size-1; i >= 0; i--)
+                if (elementData[i] == null)
+                    return i;
+        } else {
+            for (int i = size-1; i >= 0; i--)
+                if (o.equals(elementData[i]))
+                    return i;
+        }
+        return -1;
+    }
+
 
     //TODO h) create the E get(int index) method that returns the object from the given index
     //TODO pay attention to the size property
 
+    public E get(int index) throws  Exception{
+        try{
+            return (E) elementData[index];
+
+        }catch (ArrayIndexOutOfBoundsException e){
+            throw new RuntimeException("index is not available");
+
+        }
+    }
+
     //TODO i) create the E set(int index, E element) method that updates the value of the element from the given index
     //TODO pay attention to the size property
 
+    public E set(int index, E element) throws Exception{
+        try{
+
+            return (E) elementData[index];
+
+        }catch(ArrayIndexOutOfBoundsException e){
+            throw new RuntimeException("index is not available for set" );
+        }
+
+    }
+
     //TODO j) create the E remove(int index) method that removes the element from the given index
+        public E remove(int index) {
+            if (index < 0 || index >= this.size)
+                throw new IndexOutOfBoundsException("Error");
+            return (E) elementData[index];
+        }
 
     //TODO k) extend the current default capacity, if the number of elements in the data structure is > 75% of it
     //TODO you should name it: void extendCapacity(int capacity) - HINT use capacity, DEFAULT_CAPACITY, LOAD_FACTOR and INCREASE_SIZE_FACTOR
+
+    void extendCapacity(int capacity){
+        if(size / capacityAfterExtending > LOAD_FACTOR){
+            capacityAfterExtending = capacityAfterExtending * INCREASE_SIZE_FACTOR;
+
+        }
+    }
 
     //TODO l) implement the iterator() method in order to use the foreach statement over your data structure - HINT Iterable interface
     //TODO and implement a custom iterator for your custom data structure - methods boolean hasNext(), Object next() and void remove()
