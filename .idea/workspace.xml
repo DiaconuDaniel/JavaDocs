@@ -1,8 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c60977a8-44c8-47c1-89df-e952a68274f8" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="e574ec9e-148a-4381-bbf3-6ed189179dca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/annotations/Column.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/annotations/Id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/annotations/Table.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/database/DBManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/database/DBProperties.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/em/ColumnInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/em/Condition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/em/EntityManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/em/EntityManagerImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/em/EntityUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/em/QueryBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/api/em/QueryType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/appl/domain/Department.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/appl/domain/Location.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/autowired/A.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/autowired/AutowiredUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/autowired/B.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/autowired/Foo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/autowired/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/autowired/MyAutowired.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/autowired/MyQualifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/classes/ro/teamnet/zth/autowired/SpeakingInterface.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/test-classes/ro/teamnet/zth/api/database/DBManagerTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/test-classes/ro/teamnet/zth/api/em/EntityManagerImplTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/target/test-classes/ro/teamnet/zth/api/em/EntityUtilsTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Introduction to JDBC.pptx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/JDBC_Workshop_day1.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/JDBC_Workshop_day2.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Other/ojdbc6-11.2.0.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/~$BC_Workshop_day1.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/.idea/libraries/Maven__postgresql_postgresql_9_1_901_jdbc4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/.idea/libraries/ojdbc6_11_2_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/ZTH.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/annotations/Column.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/annotations/Id.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/annotations/Table.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/database/DBManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/database/DBProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/em/ColumnInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/em/Condition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/em/EntityManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/em/EntityManagerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/em/QueryBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/api/em/QueryType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/appl/domain/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/appl/domain/Location.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/autowired/A.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/autowired/AutowiredUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/autowired/B.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/autowired/Foo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/autowired/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/autowired/MyAutowired.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/autowired/MyQualifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/main/java/ro/teamnet/zth/autowired/SpeakingInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/test/java/ro/teamnet/zth/api/database/DBManagerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/test/java/ro/teamnet/zth/api/em/EntityManagerImplTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Code/JDBCApp/src/test/java/ro/teamnet/zth/api/em/EntityUtilsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Other/SQL_TABLES.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Other/import_values.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/Other/import_values_locations.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Maven_UnitTesting/~$rkshop Maven.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflection/~$flection_workshop.docx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/warmup-part2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Collections/warmup-part2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reflection/ClassReflectionDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Reflection/ClassReflectionDemo/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,56 +84,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassReflectionDemoMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/ClassReflectionDemoMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Number.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/demoobject/Number.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Numb.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/demoobject/Numb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/demoobject/Numb.java" />
-        <option value="$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/ClassReflectionDemoMain.java" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -70,10 +99,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1378" />
-    <option name="height" value="744" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -90,43 +118,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ClassReflectionDemo" />
+              <option name="myItemId" value="JavaDocs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ClassReflectionDemo" />
+              <option name="myItemId" value="JavaDocs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ClassReflectionDemo" />
+              <option name="myItemId" value="JavaDocs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ClassReflectionDemo" />
+              <option name="myItemId" value="JavaDocs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="JDBC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JDBC/Code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,27 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassReflectionDemoMain">
-    <configuration default="false" name="ClassReflectionDemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ro.teamnet.zerotohero.reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ro.teamnet.zerotohero.reflection.ClassReflectionDemoMain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ClassReflectionDemo" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -398,7 +406,6 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -468,7 +475,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ClassReflectionDemo" />
+      <module name="JavaDocs" />
       <envs />
       <method />
     </configuration>
@@ -527,12 +534,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -548,66 +549,55 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.ClassReflectionDemoMain" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.ClassReflectionDemoMain" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c60977a8-44c8-47c1-89df-e952a68274f8" name="Default" comment="" />
-      <created>1499856103649</created>
+      <changelist id="e574ec9e-148a-4381-bbf3-6ed189179dca" name="Default" comment="" />
+      <created>1499957883729</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1499856103649</updated>
-      <workItem from="1499856104972" duration="3283000" />
-      <workItem from="1499926668959" duration="24000" />
+      <updated>1499957883729</updated>
+      <workItem from="1499957885475" duration="84000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3307000" />
+    <option name="totallyTimeSpent" value="84000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="1" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,73 +607,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/ClassReflectionDemoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/demoobject/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/demoobject/Numb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/demoobject/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/demoobject/Numb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/teamnet/zerotohero/reflection/ClassReflectionDemoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
